@@ -1,0 +1,8 @@
+Dir1
+    Dir2
+        Dir4
+            Doc4.txt
+        Doc3.txt
+    Dir3
+        Doc2.txt
+    Doc1.txt
