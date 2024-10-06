@@ -1,0 +1,5 @@
+public class CodeCommentsSeparation {
+    public static void main(String[] args) throws IOException {
+        if (args.length != 3) {
+            throw new IllegalArgumentException(
+                "Fill all the obligatory fields: in_file out_comments out_code");
