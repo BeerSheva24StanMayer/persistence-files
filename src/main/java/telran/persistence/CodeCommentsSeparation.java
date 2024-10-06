@@ -23,7 +23,7 @@ public class CodeCommentsSeparation {
                 if(line.contains("//")) {
                     commentCodeSplitter(line, output_comments, output_code);
                 }
-                else {
+                else if (!line.startsWith("\n")){
                     output_code.append(line + "\n");
                 }
                 
